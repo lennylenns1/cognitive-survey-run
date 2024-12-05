@@ -1,0 +1,206 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('bergpk.png') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: rgb(255, 255, 255);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes full viewport height */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+/* Survey section styling */
+#survey {
+    background: url('rmbackground.png') no-repeat center center;
+    background-size: cover; /* Ensure the image covers the entire section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#survey h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: rgb(62, 62, 62);
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(62, 62, 62);
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+select, input[type="range"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Cognitive Survey Button */
+.cognitive-survey {
+    background-color: rgb(255, 255, 255);
+}
+.cognitive-survey a {
+    color: rgb(0, 0, 0); /* Link text color */
+    text-decoration: none; /* Remove underline from link */
+}
+/* Hover effect for Cognitive Survey Button */
+.cognitive-survey:hover {
+    background-color: rgb(83, 188, 236); /* Hover color */
+}
+
+/* Submit Feedback Button */
+.submit-feedback {
+    background-color: rgb(41, 168, 68); /* Initial color */
+}
+/* Hover effect for Submit Feedback Button */
+.submit-feedback:hover {
+    background-color: rgb(191, 44, 44); /* Hover color */
+}
+
+/* Home Page Button */
+.home-page a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* Hover effect for Home Page Button */
+.home-page:hover {
+    background-color: rgb(83, 188, 236);
+}
+
+
+/* Main content area */
+main {
+    flex: 1; /* Expands to take up available space */
+    padding: 20px; /* Apply padding */
+    max-width: 800px; /* Center the content with max-width */
+    margin: 0 auto; /* Center the content */
+}
+
+/* Footer styling */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center; /* Center text horizontally */
+    padding: 10px 0; /* Add some padding */
+    width: 100%; /* Ensure it takes full width */
+    position: relative; /* Allows it to expand to full width */
+    bottom: 0; /* Positions it at the bottom */
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+footer a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Feedback message styling */
+#feedback-message {
+    background-color: rgb(207, 231, 212);
+    color: rgb(29, 122, 49);
+    border: 1px solid rgb(207, 231, 212);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* COMMENT STYLE POST ON RESULTS.HTML FILE */ 
+#feedback-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.feedback-post {
+    border: 1px solid rgb(207, 231, 212);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feedback-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.feedback-post p {
+    margin: 5px 0; 
+}
+/* ADDED THE ABOVE CODE FOR COMMENT POST NOV 23RD */
+
+/* ADDED THIS FOR SMALLER SCREENS */ 
+/* Media queries for mobile */
+@media all and (max-width: 768px) {
+    body {
+        background: url('bergpk.png') no-repeat center center fixed;
+        background-size: cover; /* Ensure background image scales on mobile */
+        padding: 10px; /* Add some padding on mobile */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+    /* Example for smaller devices */
+    .container {
+        width: 100%; /* Full width on mobile */
+        padding: 15px; /* Add padding for spacing */
+    }
+    /* Example: Adjust header size for small screens */
+    header h1 {
+        font-size: 22px;
+    }
+}
+@media all and (min-width: 769px) {
+    body {
+        font-size: 16px; /* Adjust font size for tablets and larger screens */
+    }
+    .container {
+        width: 80%; /* Example: Less width on larger screens */
+        margin: 0 auto; /* Center the container */
+    }
+    header h1 {
+        font-size: 28px; /* Larger font size for larger screens */
+    }
+}
