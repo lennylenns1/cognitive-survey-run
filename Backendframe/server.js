@@ -2,12 +2,12 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const cors = require('cors');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 
 // Connection URI
-const uri = 'mongodb+srv://AccessDBrunn:9Ds%4086@dbrunning.shs79.mongodb.net/?retryWrites=true&w=majority&appName=DBrunning';
+const uri = 'mongodb+srv://AccessDBrunn:9Ds%4086Jt@dbrunning.shs79.mongodb.net/?retryWrites=true&w=majority&appName=DBrunning';
 // Create a new MongoClient
 const client = new MongoClient(uri, {
     ssl: true
@@ -15,7 +15,7 @@ const client = new MongoClient(uri, {
 
 // ADDED ON NOV 19TH 
 // Serve static files from the frontend directory
-app.use(express.static(path.join(__dirname, '..', 'Frontendframe'))); // Adjust 'frontend' if needed
+app.use(express.static(path.join(__dirname, 'Frontendframe'))); // Adjust 'frontend' if needed
 // Middleware to parse JSON request bodies
 app.use(bodyParser.json());
 app.use(cors()); // This will allow all origins. You can configure it more strictly later if needed.
@@ -59,6 +59,16 @@ async function insertFeedback(sessionID, runTime, mentalState, emotionalState, s
         throw error; // Rethrow error for higher-level handling
     }
 }
+
+// Added a default route to feedback.html 
+app.get('/', (_req, res) => {
+    console.log('Serving feedback.html'); 
+    res.sendFile(path.join(__dirname, 'Frontendframe', 'feedback.html' ));
+});
+
+app.get('/test', (_req, res) => {
+    res.send('Test route working');
+});
 
 // GET /get-feedback
 // COMMENTING THIS CODE OUT, THE SERVER AND DATABASE WORKS. 
