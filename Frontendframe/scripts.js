@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
      // Only call fetchAndDisplayFeedback if on results.html
     if (document.getElementById("feedback-container")) {
-        fetchAndDisplayFeedback();  // This will now only run on results.html
+        fetchAndDisplayFeedback();  // This will only run on results.html
     }
     const feedbackForm = document.getElementById("feedback-form");
     const feedbackMessage = document.getElementById("feedback-message");
@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
 if (feedbackForm) {
 feedbackForm.addEventListener("submit", async function(event) {
-    event.preventDefault(); // Prevent the form from submitting the traditional way
-    // ADDED ON 11/13TH 
+    event.preventDefault(); 
     // Generate or retrieve the session ID 
     let sessionID = localStorage.getItem('sessionID');
     if (!sessionID) {
@@ -20,25 +19,21 @@ feedbackForm.addEventListener("submit", async function(event) {
         });
     localStorage.setItem('sessionID', sessionID);
     }
-
-    // GET FORM DATA
+    // Get the data form 
     const runTime = document.getElementById("run-time").value;
     const mentalState = document.getElementById("mental-state").value;
     const emotionalState = document.getElementById("emotional-state").value;
     const stressLevel = document.getElementById("stress-level").value;
     // Capture the user's comment from the textarea
     const userComment = document.getElementById("user-comment").value;
-
-    // Log the data to the console (for now)
+    // Log the data to the console 
     console.log("Session ID:", sessionID);
     console.log("Run Time:", runTime);
     console.log("Mental State:", mentalState);
     console.log("Emotional State:", emotionalState);
     console.log("Stress Level:", stressLevel);
     console.log("User Comment:", userComment);
-
     const response = await insertFeedbackToMongoDB(sessionID, runTime, mentalState, emotionalState, stressLevel, userComment);
-
     if (response.success) {
         console.log("Feedback saved successfully. Redirecting to results...");
         window.location.href = "/results.html";
@@ -49,7 +44,6 @@ feedbackForm.addEventListener("submit", async function(event) {
     }
 });
 }
-
 // DISPLAY FEEDBACK IN COMMENT POST 
 function displayFeedback(feedbackData) {
     const feedbackContainer = document.getElementById("feedback-container");
@@ -57,7 +51,7 @@ function displayFeedback(feedbackData) {
         console.warn("Feedback container not found on feedback.html file.");
         return;
     }
-    feedbackContainer.innerHTML = ""; // clear container before rendering
+    feedbackContainer.innerHTML = ""; 
     feedbackData.forEach((feedback) => {
         // DIV CREATION 
         const feedbackDiv = document.createElement("div");
@@ -78,7 +72,7 @@ function displayFeedback(feedbackData) {
     });
 }
 
-// ADDED NOV 23RD FOR FETCHING DATA & IF COMMENTING OUT, THE CODE WORKS 
+// GETTING THE DATA 
 async function fetchAndDisplayFeedback() {
     try {
         const response = await fetch('get-feedback');
@@ -96,8 +90,7 @@ async function fetchAndDisplayFeedback() {
         console.error('Error fetching feedback: ', error);
     }
 }
-
-// ADDED ON NOV 19TH TO SENT TO MONGODB DATABASE 
+// SENT TO MONGODB DATABASE 
 async function insertFeedbackToMongoDB(sessionID, runTime, mentalState, emotionalState, stressLevel, userComment) {
     try {
         const response = await fetch('submit-feedback', {
