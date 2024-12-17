@@ -10035,3 +10035,38 @@ Fetched Feedback: [
     customProperty: 'serverJS'
   }
 ]
+Fetched Feedback: [
+  {
+    _id: new ObjectId('6761f757366858e33c1d29e4'),
+    sessionID: '709f-4a7d-878c',
+    runTime: 'after',
+    mentalState: '1',
+    emotionalState: '1',
+    stressLevel: '1',
+    userComment: 'Today, I ran 3 miles. It was a good run. Toward the end of the run was a bit challenging, but I finished the run. ',
+    customProperty: 'serverJS'
+  }
+]
+insertFeedback data inserted into DBrunning database from serverJS 
+Fetched Feedback: [
+  {
+    _id: new ObjectId('67620244366858e33c1d29e5'),
+    sessionID: '709f-4a7d-878c',
+    runTime: 'before your run',
+    mentalState: '2',
+    emotionalState: '8',
+    stressLevel: '8',
+    userComment: 'This is a morning run. ',
+    customProperty: 'serverJS'
+  },
+  {
+    _id: new ObjectId('6761f757366858e33c1d29e4'),
+    sessionID: '709f-4a7d-878c',
+    runTime: 'after',
+    mentalState: '1',
+    emotionalState: '1',
+    stressLevel: '1',
+    userComment: 'Today, I ran 3 miles. It was a good run. Toward the end of the run was a bit challenging, but I finished the run. ',
+    customProperty: 'serverJS'
+  }
+]
