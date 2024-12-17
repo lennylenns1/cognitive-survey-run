@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 
 // Connection URI
-const uri = 'mongodb+srv://AccessDBrunn:9Ds%4086@dbrunning.shs79.mongodb.net/?retryWrites=true&w=majority&appName=DBrunning';
+const uri = 'mongodb+srv://AccessDBrunn:9Ds%4086Jt@dbrunning.shs79.mongodb.net/?retryWrites=true&w=majority&appName=DBrunning';
 // Create a new MongoClient
 const client = new MongoClient(uri, {
     ssl: true
