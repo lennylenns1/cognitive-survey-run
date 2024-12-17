@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Run Mind - Home</title>
+    <title>Cogni Run - Home</title>
 </head>
 <body>
     <header>
-        <h1>Run Mind</h1>
+        <h1>Cogni Run</h1>
         <p>Share your mental, emotional, and stress levels before or after a run.</p>
     </header>
     <main>
@@ -16,12 +16,13 @@
             <h2>How do you feel?</h2>
             <form id="feedback-form" action="/submit-feedback" method="POST">
                 <label for="run-time">Before or After Your Run?</label><br>
-                <!-- ADDED ON NOV 16TH WHICH USER HAS TO SELECT -->
+                <!-- Users have to select Before or After -->
                 <select id="run-time" name="run-time" required>
                     <option value="" disabled selected>Select...</option>
-                    <option value="before">Before</option>
-                    <option value="after">After</option>
+                    <option value="before your run">Before</option>
+                    <option value="after your run">After</option>
                 </select><br><br>
+                <!-- Form bars on mental, emotional, and stress state -->
                 <label for="mental-state">Mental State:</label><br>
                 <input type="range" id="mental-state" name="mental-state" min="1" max="10" required><br><br>
                 <label for="emotional-state">Emotional State:</label><br>
@@ -31,7 +32,7 @@
                 <!-- Add the Comment Box -->
                 <label for="user-comment">Additional Comments:</label><br>
                 <textarea id="user-comment" name="user-comment" rows="4" cols="40" placeholder="Optional: Share how you're feeling about your run..."></textarea><br><br>
-                <!-- Hidden field to hold session ID --> <!-- ADDED THIS SECTION 11/13TH --> 
+                <!-- Hidden field to hold session ID --> 
                 <input type="hidden" id="session-id" name="session-id">
                 <button id="submitFeedback" type="submit" class="submit-feedback">Submit Feedback</button>
             </form>

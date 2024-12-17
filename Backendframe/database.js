@@ -23,17 +23,14 @@ async function insertFeedback(sessionID, runTime, mentalState, emotionalState, s
                 userComment: userComment, 
             });
         console.log('Feedback inserted into DBfitness database from databaseJS', result);
-        // ADDED CODE BELOW NOV 23RD 
-        return result; //;  // Returns true if one document was inserted commented out at 5:17pm
+        return result; 
     } catch (error) {
         console.error('Error inserting feedback:', error);
         throw new Error('Failed to insert feedback');
-        // ADDED CODE ABOVE NOV 23RD 
     } finally {
         await client.close();
     }
 }
-
 // Connect to the server snippet 
 async function run() {
     try {
