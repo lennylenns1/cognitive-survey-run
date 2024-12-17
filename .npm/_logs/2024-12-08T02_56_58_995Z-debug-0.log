@@ -1,0 +1,212 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/root/Backendframe/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 14ms
+17 timing npm:load:configload Completed in 14ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:/root/.npm/_logs/2024-12-08T02_56_58_995Z-
+26 verbose logfile /root/.npm/_logs/2024-12-08T02_56_58_995Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 34ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 0ms
+33 timing arborist:ctor Completed in 1ms
+34 timing idealTree:init Completed in 110ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 1ms
+38 timing idealTree:buildDeps Completed in 2ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 118ms
+41 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+42 timing reify:loadTrees Completed in 215ms
+43 timing reify:diffTrees Completed in 4ms
+44 silly reify moves {}
+45 timing reify:retireShallow Completed in 1ms
+46 timing reify:createSparse Completed in 0ms
+47 timing reify:loadBundles Completed in 0ms
+48 silly audit bulk request {
+48 silly audit   '@mongodb-js/saslprep': [ '1.1.9' ],
+48 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+48 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+48 silly audit   accepts: [ '1.3.8' ],
+48 silly audit   'array-flatten': [ '1.1.1' ],
+48 silly audit   'body-parser': [ '1.20.3' ],
+48 silly audit   bson: [ '6.8.0' ],
+48 silly audit   bytes: [ '3.1.2' ],
+48 silly audit   'call-bind': [ '1.0.7' ],
+48 silly audit   'content-disposition': [ '0.5.4' ],
+48 silly audit   'content-type': [ '1.0.5' ],
+48 silly audit   cookie: [ '0.6.0' ],
+48 silly audit   'cookie-signature': [ '1.0.6' ],
+48 silly audit   cors: [ '2.8.5' ],
+48 silly audit   debug: [ '2.6.9', '4.3.7' ],
+48 silly audit   'define-data-property': [ '1.1.4' ],
+48 silly audit   depd: [ '2.0.0' ],
+48 silly audit   destroy: [ '1.2.0' ],
+48 silly audit   'ee-first': [ '1.1.1' ],
+48 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+48 silly audit   'es-define-property': [ '1.0.0' ],
+48 silly audit   'es-errors': [ '1.3.0' ],
+48 silly audit   'escape-html': [ '1.0.3' ],
+48 silly audit   etag: [ '1.8.1' ],
+48 silly audit   express: [ '4.21.0' ],
+48 silly audit   finalhandler: [ '1.3.1' ],
+48 silly audit   forwarded: [ '0.2.0' ],
+48 silly audit   fresh: [ '0.5.2' ],
+48 silly audit   'function-bind': [ '1.1.2' ],
+48 silly audit   'get-intrinsic': [ '1.2.4' ],
+48 silly audit   gopd: [ '1.0.1' ],
+48 silly audit   'has-property-descriptors': [ '1.0.2' ],
+48 silly audit   'has-proto': [ '1.0.3' ],
+48 silly audit   'has-symbols': [ '1.0.3' ],
+48 silly audit   hasown: [ '2.0.2' ],
+48 silly audit   'http-errors': [ '2.0.0' ],
+48 silly audit   'iconv-lite': [ '0.4.24' ],
+48 silly audit   inherits: [ '2.0.4' ],
+48 silly audit   'ipaddr.js': [ '1.9.1' ],
+48 silly audit   kareem: [ '2.6.3' ],
+48 silly audit   'media-typer': [ '0.3.0' ],
+48 silly audit   'memory-pager': [ '1.5.0' ],
+48 silly audit   'merge-descriptors': [ '1.0.3' ],
+48 silly audit   methods: [ '1.1.2' ],
+48 silly audit   mime: [ '1.6.0' ],
+48 silly audit   'mime-db': [ '1.52.0' ],
+48 silly audit   'mime-types': [ '2.1.35' ],
+48 silly audit   mongodb: [ '6.8.0' ],
+48 silly audit   'mongodb-connection-string-url': [ '3.0.1' ],
+48 silly audit   mongoose: [ '8.6.2' ],
+48 silly audit   ms: [ '2.1.3', '2.0.0' ],
+48 silly audit   mpath: [ '0.9.0' ],
+48 silly audit   mquery: [ '5.0.0' ],
+48 silly audit   negotiator: [ '0.6.3' ],
+48 silly audit   'object-assign': [ '4.1.1' ],
+48 silly audit   'object-inspect': [ '1.13.2' ],
+48 silly audit   'on-finished': [ '2.4.1' ],
+48 silly audit   parseurl: [ '1.3.3' ],
+48 silly audit   'path-to-regexp': [ '0.1.10' ],
+48 silly audit   'proxy-addr': [ '2.0.7' ],
+48 silly audit   punycode: [ '2.3.1' ],
+48 silly audit   qs: [ '6.13.0' ],
+48 silly audit   'range-parser': [ '1.2.1' ],
+48 silly audit   'raw-body': [ '2.5.2' ],
+48 silly audit   'safe-buffer': [ '5.2.1' ],
+48 silly audit   'safer-buffer': [ '2.1.2' ],
+48 silly audit   send: [ '0.19.0' ],
+48 silly audit   'serve-static': [ '1.16.2' ],
+48 silly audit   'set-function-length': [ '1.2.2' ],
+48 silly audit   setprototypeof: [ '1.2.0' ],
+48 silly audit   'side-channel': [ '1.0.6' ],
+48 silly audit   sift: [ '17.1.3' ],
+48 silly audit   'sparse-bitfield': [ '3.0.3' ],
+48 silly audit   statuses: [ '2.0.1' ],
+48 silly audit   toidentifier: [ '1.0.1' ],
+48 silly audit   tr46: [ '4.1.1' ],
+48 silly audit   'type-is': [ '1.6.18' ],
+48 silly audit   unpipe: [ '1.0.0' ],
+48 silly audit   'utils-merge': [ '1.0.1' ],
+48 silly audit   vary: [ '1.1.2' ],
+48 silly audit   'webidl-conversions': [ '7.0.0' ],
+48 silly audit   'whatwg-url': [ '13.0.0' ]
+48 silly audit }
+49 timing reify:unpack Completed in 4ms
+50 timing reify:unretire Completed in 0ms
+51 timing build:queue Completed in 0ms
+52 timing build:deps Completed in 1ms
+53 timing build Completed in 1ms
+54 timing reify:build Completed in 2ms
+55 timing reify:trash Completed in 0ms
+56 timing reify:save Completed in 34ms
+57 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 276ms
+58 timing auditReport:getReport Completed in 282ms
+59 silly audit report {
+59 silly audit report   cookie: [
+59 silly audit report     {
+59 silly audit report       id: 1099846,
+59 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+59 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+59 silly audit report       severity: 'low',
+59 silly audit report       vulnerable_versions: '<0.7.0',
+59 silly audit report       cwe: [Array],
+59 silly audit report       cvss: [Object]
+59 silly audit report     }
+59 silly audit report   ],
+59 silly audit report   mongoose: [
+59 silly audit report     {
+59 silly audit report       id: 1101063,
+59 silly audit report       url: 'https://github.com/advisories/GHSA-m7xq-9374-9rvx',
+59 silly audit report       title: 'Mongoose search injection vulnerability',
+59 silly audit report       severity: 'high',
+59 silly audit report       vulnerable_versions: '>=8.0.0-rc0 <8.8.3',
+59 silly audit report       cwe: [Array],
+59 silly audit report       cvss: [Object]
+59 silly audit report     }
+59 silly audit report   ],
+59 silly audit report   'path-to-regexp': [
+59 silly audit report     {
+59 silly audit report       id: 1101081,
+59 silly audit report       url: 'https://github.com/advisories/GHSA-rhx6-c78j-4q9w',
+59 silly audit report       title: 'Unpatched `path-to-regexp` ReDoS in 0.1.x',
+59 silly audit report       severity: 'moderate',
+59 silly audit report       vulnerable_versions: '<0.1.12',
+59 silly audit report       cwe: [Array],
+59 silly audit report       cvss: [Object]
+59 silly audit report     }
+59 silly audit report   ]
+59 silly audit report }
+60 timing metavuln:cache:get:security-advisory:cookie:fiAgy8LdsBPaQEbo7M3TC0K1AVc7Dl69m8P2pmr6RTs1eBYnkyvV6lHHCRB0mAKtL1TSQPXxJVEHOqp48Uvhag== Completed in 5ms
+61 timing metavuln:cache:get:security-advisory:mongoose:WWqvHXEeQpV3FnQE4A8P64U7tmkoMxM33ZQPPogWXc7U4k8oxrfMY3yfqOPMsV0DgU0OUYN4g48eq9GeinAduA== Completed in 3ms
+62 timing metavuln:cache:get:security-advisory:path-to-regexp:2qdoAnGH3xB469g+aonHSVZDVP7zVBN7zKSrZom+Yx5jyXRqD98gvs0JcbJIcczqsPq3aVnw6g4EVzEWP24sQA== Completed in 3ms
+63 http fetch GET 200 https://registry.npmjs.org/cookie 73ms (cache miss)
+64 timing metavuln:packument:cookie Completed in 75ms
+65 timing metavuln:load:security-advisory:cookie:1099846 Completed in 2ms
+66 timing metavuln:cache:put:security-advisory:cookie:fiAgy8LdsBPaQEbo7M3TC0K1AVc7Dl69m8P2pmr6RTs1eBYnkyvV6lHHCRB0mAKtL1TSQPXxJVEHOqp48Uvhag== Completed in 3ms
+67 timing metavuln:calculate:security-advisory:cookie:1099846 Completed in 81ms
+68 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 124ms (cache miss)
+69 timing metavuln:packument:path-to-regexp Completed in 127ms
+70 timing metavuln:load:security-advisory:path-to-regexp:1101081 Completed in 4ms
+71 timing metavuln:cache:put:security-advisory:path-to-regexp:2qdoAnGH3xB469g+aonHSVZDVP7zVBN7zKSrZom+Yx5jyXRqD98gvs0JcbJIcczqsPq3aVnw6g4EVzEWP24sQA== Completed in 9ms
+72 timing metavuln:calculate:security-advisory:path-to-regexp:1101081 Completed in 140ms
+73 http fetch GET 200 https://registry.npmjs.org/mongoose 174ms (cache miss)
+74 timing metavuln:packument:mongoose Completed in 191ms
+75 timing metavuln:load:security-advisory:mongoose:1101063 Completed in 36ms
+76 timing metavuln:cache:put:security-advisory:mongoose:WWqvHXEeQpV3FnQE4A8P64U7tmkoMxM33ZQPPogWXc7U4k8oxrfMY3yfqOPMsV0DgU0OUYN4g48eq9GeinAduA== Completed in 3ms
+77 timing metavuln:calculate:security-advisory:mongoose:1101063 Completed in 230ms
+78 timing metavuln:cache:get:security-advisory:express:wpiLhoazHuPn1BZx3aoZElXRJGtv0L0hAoLu6mSYyQJJZRllThEbX+Zz/Sao2aEUznMvCOKVfYofpLqfRxfcfQ== Completed in 1ms
+79 http fetch GET 200 https://registry.npmjs.org/express 54ms (cache miss)
+80 timing metavuln:packument:express Completed in 65ms
+81 timing metavuln:load:security-advisory:express:fiAgy8LdsBPaQEbo7M3TC0K1AVc7Dl69m8P2pmr6RTs1eBYnkyvV6lHHCRB0mAKtL1TSQPXxJVEHOqp48Uvhag== Completed in 21ms
+82 timing metavuln:cache:put:security-advisory:express:wpiLhoazHuPn1BZx3aoZElXRJGtv0L0hAoLu6mSYyQJJZRllThEbX+Zz/Sao2aEUznMvCOKVfYofpLqfRxfcfQ== Completed in 6ms
+83 timing metavuln:calculate:security-advisory:express:fiAgy8LdsBPaQEbo7M3TC0K1AVc7Dl69m8P2pmr6RTs1eBYnkyvV6lHHCRB0mAKtL1TSQPXxJVEHOqp48Uvhag== Completed in 93ms
+84 timing metavuln:cache:get:security-advisory:express:ebtUTbPFP4GLpEWnCv5+nWyKme1GvNGh2ld1QU5lNTXxEKWFf6g6IO59JyRhLIuY6S5UVcC4dpdRfp+Zookh0g== Completed in 5ms
+85 timing metavuln:load:security-advisory:express:2qdoAnGH3xB469g+aonHSVZDVP7zVBN7zKSrZom+Yx5jyXRqD98gvs0JcbJIcczqsPq3aVnw6g4EVzEWP24sQA== Completed in 21ms
+86 timing metavuln:cache:put:security-advisory:express:ebtUTbPFP4GLpEWnCv5+nWyKme1GvNGh2ld1QU5lNTXxEKWFf6g6IO59JyRhLIuY6S5UVcC4dpdRfp+Zookh0g== Completed in 4ms
+87 timing metavuln:calculate:security-advisory:express:2qdoAnGH3xB469g+aonHSVZDVP7zVBN7zKSrZom+Yx5jyXRqD98gvs0JcbJIcczqsPq3aVnw6g4EVzEWP24sQA== Completed in 30ms
+88 timing auditReport:init Completed in 369ms
+89 timing reify:audit Completed in 652ms
+90 timing reify Completed in 879ms
+91 timing command:install Completed in 916ms
+92 verbose exit 0
+93 timing npm Completed in 968ms
+94 info ok
