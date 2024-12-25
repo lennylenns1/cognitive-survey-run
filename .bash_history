@@ -452,3 +452,19 @@ cd Frontendframe
 ls
 quit
 exit
+ls
+git status
+git add .
+git commit -m "Update files and add .gitignore"
+git config --global user.name "Lenart Tso"
+git config --global user.email "contact.fitnrunn@gmail.com"
+git commit --amend --reset-author
+git add .gitconfig
+git commit --amend --reset-author
+git push
+nano ~/.bash_history
+git add .bash_history
+git commit --amend --no-edit
+git push --force-with-lease
+sudo systemctl restart nginx
+tail -f /var/log/nginx/access.log
