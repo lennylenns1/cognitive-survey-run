@@ -10070,3 +10070,331 @@ Fetched Feedback: [
     customProperty: 'serverJS'
   }
 ]
+Server running on port 3000
+Serving static files from: /root/Backendframe/Frontendframe
+Connected to MongoDB
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+Serving feedback.html
+Error: ENOENT: no such file or directory, stat '/root/Backendframe/Frontendframe/feedback.html'
+insertFeedback data inserted into DBrunning database from serverJS 
+Fetched Feedback: [
+  {
+    _id: new ObjectId('676c574a78cf83442e7fd77b'),
+    sessionID: '5dbc-42be-a4e1',
+    runTime: 'before your run',
+    mentalState: '2',
+    emotionalState: '2',
+    stressLevel: '2',
+    userComment: 'This is a test.',
+    customProperty: 'serverJS'
+  },
+  {
+    _id: new ObjectId('6761f757366858e33c1d29e4'),
+    sessionID: '709f-4a7d-878c',
+    runTime: 'after',
+    mentalState: '1',
+    emotionalState: '1',
+    stressLevel: '1',
+    userComment: 'Today, I ran 3 miles. It was a good run. Toward the end of the run was a bit challenging, but I finished the run. ',
+    customProperty: 'serverJS'
+  }
+]

@@ -652,3 +652,8 @@
 2024-12-08T20:42:22: PM2 log: App [server:0] online
 2024-12-08T20:42:23: PM2 log: App [server:0] exited with code [1] via signal [SIGINT]
 2024-12-08T20:42:23: PM2 log: Script /root/Backendframe/server.js had too many unstable restarts (16). Stopped. "errored"
+2024-12-18T02:05:32: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2024-12-18T02:05:32: PM2 log: Deleting process 0
+2024-12-18T02:05:32: PM2 log: Stopping app:server id:0
+2024-12-18T02:05:32: PM2 error: app=server id=0 does not have a pid
+2024-12-18T02:05:32: PM2 log: Exited peacefully
